@@ -1,0 +1,5 @@
+---
+
+- hosts: lbservers
+  roles:
+  - haproxy

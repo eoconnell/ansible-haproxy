@@ -1,0 +1,9 @@
+---
+
+- name: Install nginx
+  sudo: true
+  apt: name=nginx state=present
+
+- name: nginx service state
+  sudo: true
+  service: name=nginx state=started
